@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Shop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Welcome to my Shop</div>
+        <form action="MainController" method="POST">
+            <select name ="cmbClothes">
+                <option value="C01-T_Shirt-150">T_shirt-150$</option>
+                <option value="C02-Pain-300">Pain-300$</option>
+                <option value="C03-Bubble_Dress-400">Bubble_Dress-400$</option>
+                <option value="C04-Fashion_Hat-200">Fashion_Hat-200$</option>
+            </select>
+            <select name="cmbQuantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                
+            </select>
+            <input type="submit" value="Add" name="action" />
+            <input type="submit" value="View" name="action" />
+        </form>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2022, 4:18:16 PM
+    Author     : SE150853 Nguyen Huynh Minh Khoi
+*/
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+.card-img-left {
+    width: 45%;
+    background: scroll center url('https://swin2888.com/wp-content/uploads/2020/07/hinh-anh-ronaldo-an-mung-ban-thang.jpg');
+    background-size: cover;
+}
+
+.login-img{
+    width: 45%;
+    background-size: cover;
+    background-position: center center;
+}
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.khanhlq{
+    background-color: #EEEEEE;
+}
+
+.minhph{
+    background-color: #EEEEEE;
+}
+
+.btn-google{
+    color: white !important;
+    background-color: #ea4335;
+    width: 100%;
+}
+
+.card {
+
+    border: none;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    border-radius: 4px;
+}
+
+
+.dots{
+
+    height: 4px;
+    width: 4px;
+    margin-bottom: 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.badge{
+
+    padding: 7px;
+    padding-right: 9px;
+    padding-left: 16px;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+}
+
+.user-img{
+
+    margin-top: 4px;
+}
+
+.check-icon{
+
+    font-size: 17px;
+    color: #c3bfbf;
+    top: 1px;
+    position: relative;
+    margin-left: 3px;
+}
+
+.form-check-input{
+    margin-top: 6px;
+    margin-left: -24px !important;
+    cursor: pointer;
+}
+
+
+.form-check-input:focus{
+    box-shadow: none;
+}
+
+.icons i{
+    margin-left: 8px;
+}
+.reply{
+    margin-left: 12px;
+}
+
+.reply small{
+    color: #b7b4b4;
+}
+
+
+.reply small:hover{
+    color: green;
+    cursor: pointer;
+}
+
